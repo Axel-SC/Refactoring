@@ -34,7 +34,7 @@ public class Lloguer {
 	public Vehicle getVehicle() {
 		return this.vehicle;
 	}
-
+	
 	public double quantitat() {
 		double quantitat = 0;
     	switch (this.getVehicle().getCategoria()) {
@@ -56,6 +56,5 @@ public class Lloguer {
     	}
     	return quantitat;
 	}
-	
 
 }
