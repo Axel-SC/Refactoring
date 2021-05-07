@@ -4,6 +4,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import Practica2_UF2.Client;
+
 public class Main {
 
 	public static void main(String[] args) throws ParseException {
